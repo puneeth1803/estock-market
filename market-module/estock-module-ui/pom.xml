@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>estock-market</artifactId>
+        <artifactId>market-module</artifactId>
         <groupId>com.labs.fse.a2m</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>market-module</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>estock-module-server</module>
-        <module>estock-module-ui</module>
-        <module>estock-module-orm</module>
-    </modules>
+    <artifactId>estock-module-ui</artifactId>
 
 
 </project>
